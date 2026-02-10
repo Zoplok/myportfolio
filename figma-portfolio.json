@@ -1,0 +1,202 @@
+{
+  "document": {
+    "id": "0:0",
+    "name": "Portfolio",
+    "type": "DOCUMENT",
+    "children": [
+      {
+        "id": "0:1",
+        "name": "Page 1",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "1:0",
+            "name": "Portfolio Frame",
+            "type": "FRAME",
+            "absoluteBoundingBox": { "x": 0, "y": 0, "width": 1400, "height": 4200 },
+            "backgroundColor": { "r": 0.03, "g": 0.03, "b": 0.05, "a": 1 },
+            "children": [
+              {
+                "id": "2:0",
+                "name": "Intro Section",
+                "type": "GROUP",
+                "absoluteBoundingBox": { "x": 80, "y": 80, "width": 1240, "height": 360 },
+                "children": [
+                  {
+                    "id": "2:1",
+                    "name": "HI!",
+                    "type": "TEXT",
+                    "absoluteBoundingBox": { "x": 110, "y": 120, "width": 320, "height": 180 },
+                    "characters": "HI!",
+                    "style": { "fontSize": 160, "fontFamily": "Rajdhani", "fontWeight": 700 },
+                    "fills": [{ "type": "SOLID", "color": { "r": 0.95, "g": 0.16, "b": 0.2, "a": 1 } }]
+                  },
+                  {
+                    "id": "2:2",
+                    "name": "Intro Copy",
+                    "type": "TEXT",
+                    "absoluteBoundingBox": { "x": 520, "y": 130, "width": 660, "height": 160 },
+                    "characters": "WELCOME TO MY PERSONAL WEBSITE.\nI have created this website to feel like a game/sci-fi interface.\nYou will find achievements/quests that show progress in my professional life.",
+                    "style": { "fontSize": 14, "fontFamily": "Share Tech Mono", "lineHeightPx": 22 },
+                    "fills": [{ "type": "SOLID", "color": { "r": 0.78, "g": 0.78, "b": 0.82, "a": 1 } }]
+                  }
+                ]
+              },
+              {
+                "id": "3:0",
+                "name": "Hero Section",
+                "type": "GROUP",
+                "absoluteBoundingBox": { "x": 80, "y": 480, "width": 1240, "height": 420 },
+                "children": [
+                  {
+                    "id": "3:1",
+                    "name": "Hero Title",
+                    "type": "TEXT",
+                    "absoluteBoundingBox": { "x": 120, "y": 540, "width": 520, "height": 90 },
+                    "characters": "FULLSTACK DEV",
+                    "style": { "fontSize": 56, "fontFamily": "Rajdhani", "fontWeight": 700 },
+                    "fills": [{ "type": "SOLID", "color": { "r": 0.97, "g": 0.97, "b": 0.97, "a": 1 } }]
+                  }
+                ]
+              },
+              {
+                "id": "4:0",
+                "name": "Lore Section",
+                "type": "GROUP",
+                "absoluteBoundingBox": { "x": 80, "y": 980, "width": 1240, "height": 520 }
+              },
+              {
+                "id": "5:0",
+                "name": "Achievements Section",
+                "type": "GROUP",
+                "absoluteBoundingBox": { "x": 80, "y": 1560, "width": 1240, "height": 620 }
+              },
+              {
+                "id": "6:0",
+                "name": "Quest Log Section",
+                "type": "GROUP",
+                "absoluteBoundingBox": { "x": 80, "y": 2240, "width": 1240, "height": 760 }
+              },
+              {
+                "id": "7:0",
+                "name": "Connect Section",
+                "type": "GROUP",
+                "absoluteBoundingBox": { "x": 80, "y": 3080, "width": 1240, "height": 520 }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "paintStyles": [
+    {
+      "name": "Brand/Primary/Blue 500",
+      "description": "Main brand blue",
+      "paints": [
+        {
+          "type": "solid",
+          "hex": "#1E40AF",
+          "opacity": 1
+        }
+      ]
+    },
+    {
+      "name": "Brand/Gradients/Hero Sky",
+      "description": "Landing hero gradient",
+      "paints": [
+        {
+          "type": "gradient-linear",
+          "stops": [
+            {
+              "position": 0,
+              "hex": "#60A5FA",
+              "opacity": 1
+            },
+            {
+              "position": 1,
+              "hex": "#3B82F6",
+              "opacity": 1
+            }
+          ],
+          "handles": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 0,
+              "y": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "textStyles": [
+    {
+      "name": "Text/Heading/H1",
+      "description": "Desktop H1",
+      "font": {
+        "family": "Inter",
+        "style": "Bold"
+      },
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 56
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    }
+  ],
+  "effectStyles": [
+    {
+      "name": "Effects/Shadows/Soft Elevation",
+      "description": "Soft drop shadow",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "color": {
+            "hex": "#000000",
+            "opacity": 0.15
+          },
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "radius": 24,
+          "spread": 0,
+          "visible": true,
+          "blendMode": "NORMAL"
+        }
+      ]
+    }
+  ],
+  "gridStyles": [
+    {
+      "name": "Grids/Desktop/12 Col",
+      "description": "12-col desktop grid",
+      "gridType": "COLUMNS",
+      "count": 12,
+      "gutterSize": 24,
+      "margin": 120,
+      "alignment": "STRETCH",
+      "color": {
+        "r": 0,
+        "g": 0.36,
+        "b": 1,
+        "a": 0.1
+      }
+    }
+  ]
+}
